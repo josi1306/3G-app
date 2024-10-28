@@ -10,12 +10,10 @@
     <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-<<<<<<< Updated upstream
     <string name="login">Login</string>
-=======
+
     <string name="menu_Accesorios">Accesorios</string>
     <string name="menu_Repuestos">Repuestos</string>
     <string name="menu_Cursos_Mecanica">Cursos Mecanica</string>
     <string name="menu_Editar_Perfil">Editar Perfil</string>
->>>>>>> Stashed changes
 </resources>
