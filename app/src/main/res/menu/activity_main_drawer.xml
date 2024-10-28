@@ -8,13 +8,35 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Accesorio"
+            android:icon="@drawable/accesorios"
+            android:title="@string/menu_Accesorios" />
+
+        <item
+            android:id="@+id/nav_Repuestos"
+            android:icon="@drawable/repuestos"
+            android:title="@string/menu_Repuestos" /> 
+
+        <item
+            android:id="@+id/nav_Cursos_Mecanica"
+            android:icon="@drawable/cursosmecanica"
+            android:title="@string/menu_Cursos_Mecanica" />
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
+
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_Editar_Perfil"
+            android:icon="@drawable/editarperfil"
+            android:title="@string/menu_Editar_Perfil" />
     </group>
 </menu>
