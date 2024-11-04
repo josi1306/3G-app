@@ -31,4 +31,10 @@
         android:name="com.example.a3gracing.ui.repuesto.RepuestoFragment"
         android:label="@string/menu_Repuestos"
         tools:layout="@layout/fragment_repuestos" />
+
+    <fragment
+        android:id="@+id/nav_editar_perfil"
+        android:name="com.example.a3gracing.ui.editarperfil.EditarPerfilFragment"
+        android:label="@string/menu_Editar_Perfil"
+        tools:layout="@layout/fragment_editar_perfil" />
 </navigation>
