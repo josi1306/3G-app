@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="registrar.registrar">
+
+    <View
+        android:id="@+id/fondo2"
+        android:layout_width="443dp"
+        android:layout_height="288dp"
+        android:background="@drawable/fondo_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/fondologin2"
+        android:layout_width="315dp"
+        android:layout_height="479dp"
+        android:background="@drawable/login_background"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/registroemail"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:textAlignment="center"
+        android:autofillHints=""
+        android:background="@drawable/input_back"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin2"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toTopOf="@+id/fondologin2"
+        app:layout_constraintVertical_bias="0.196"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/registroemail2"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:textAlignment="center"
+        android:background="@drawable/input_back"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin2"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toTopOf="@+id/fondologin2"
+        app:layout_constraintVertical_bias="0.374"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/registroemail3"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:textAlignment="center"
+        android:autofillHints=""
+        android:background="@drawable/input_back"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin2"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toTopOf="@+id/fondologin2"
+        app:layout_constraintVertical_bias="0.536"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/registroemail4"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:autofillHints=""
+        android:background="@drawable/input_back"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin2"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toTopOf="@+id/fondologin2"
+        app:layout_constraintVertical_bias="0.689"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="91dp"
+        android:layout_height="37dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:text="Registrar"
+        app:layout_constraintBottom_toTopOf="@+id/registroemail"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toTopOf="@+id/fondologin2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="@+id/fondologin2"
+        app:layout_constraintEnd_toEndOf="@+id/fondologin2"
+        app:layout_constraintStart_toStartOf="@+id/fondologin2"
+        app:layout_constraintTop_toBottomOf="@+id/registroemail4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
