@@ -55,7 +55,7 @@ public class HomeFragment extends Fragment {
                         .setPopUpTo(navController.getGraph().getStartDestinationId(), false)
                         .build();
 
-                navController.navigate(R.id.nav_home, null, navOptions);
+                navController.navigate(R.id.nav_Repuestos, null, navOptions);
             }
         });
         return root;
