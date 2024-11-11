@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
@@ -15,6 +17,9 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.a3gracing.R;
 import com.example.a3gracing.databinding.FragmentSlideshowBinding;
 import com.example.a3gracing.ui.home.HomeFragment;
+
+import java.io.FileDescriptor;
+import java.io.PrintWriter;
 
 public class SlideshowFragment extends Fragment {
 
@@ -61,9 +66,11 @@ private FragmentSlideshowBinding binding;
         return root;
     }
 
-@Override
+
+    @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
     }
+
 }

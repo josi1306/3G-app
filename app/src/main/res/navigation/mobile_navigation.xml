@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_homeFragment_to_galleryFragment"
             app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_editar_perfil"
+            app:destination="@id/nav_editar_perfil" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_Repuestos"
+            app:destination="@id/nav_Repuestos" />
     </fragment>
 
     <fragment
@@ -25,7 +31,11 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.a3gracing.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
     <fragment
         android:id="@+id/nav_Repuestos"
         android:name="com.example.a3gracing.ui.repuesto.RepuestoFragment"
