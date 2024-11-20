@@ -65,6 +65,7 @@ public class SlideshowFragment extends Fragment {
                             .addOnCompleteListener(getActivity(), task -> {
                                 if (task.isSuccessful()) {
                                     // Login exitoso, navegar al HomeFragment
+                                    Toast.makeText(getActivity(), "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
                                     NavController navController = NavHostFragment.findNavController(SlideshowFragment.this);
                                     navController.navigate(R.id.nav_home);
                                 } else {
