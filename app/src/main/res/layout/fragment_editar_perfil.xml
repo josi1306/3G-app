@@ -38,11 +38,13 @@
         app:layout_constraintVertical_bias="0.451" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Email"
         android:layout_width="225dp"
         android:layout_height="41dp"
         android:autofillHints=""
         android:background="@drawable/input_back"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,13 +54,15 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/nombre"
         android:layout_width="225dp"
         android:layout_height="41dp"
         android:autofillHints=""
         android:background="@drawable/input_back"
         android:ems="10"
         android:inputType="text"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,13 +71,15 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Contrasena"
         android:layout_width="225dp"
         android:layout_height="41dp"
         android:autofillHints=""
         android:background="@drawable/input_back"
         android:ems="10"
         android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,14 +87,7 @@
         app:layout_constraintVertical_bias="0.665"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="269dp">
 
-    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView9"
@@ -142,5 +141,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.072" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="176dp"
+        android:contentDescription="@string/show_password"
+        android:src="@drawable/ic_visibility"
+        app:layout_constraintBottom_toBottomOf="@+id/Contrasena"
+        app:layout_constraintEnd_toEndOf="@+id/Contrasena"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Contrasena"
+        app:layout_constraintTop_toTopOf="@+id/Contrasena"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

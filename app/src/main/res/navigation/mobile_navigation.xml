@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_slideshow">
+    app:startDestination="@+id/nav_slideshow"> <!-- Se mantiene nav_slideshow como startDestination -->
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.a3gracing.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_galleryFragment"
             app:destination="@id/nav_gallery" />
@@ -31,11 +31,12 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.a3gracing.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" >
+        tools:layout="@layout/fragment_slideshow">
         <action
             android:id="@+id/action_nav_slideshow_to_nav_home"
             app:destination="@id/nav_home" />
     </fragment>
+
     <fragment
         android:id="@+id/nav_Repuestos"
         android:name="com.example.a3gracing.ui.repuesto.RepuestoFragment"
@@ -49,7 +50,13 @@
         tools:layout="@layout/fragment_editar_perfil" />
 
     <fragment
-        android:id="@+id/nav_login"
-        android:name="com.example.a3gracing.ui.slideshow.SlideshowFragment"
-        />
+        android:id="@+id/nav_registro"
+        android:name="com.example.a3gracing.ui.registro.registroFragment"
+        android:label="@string/registro"
+        tools:layout="@layout/fragment_registro">
+        <action
+            android:id="@+id/action_nav_registro_to_nav_slideshow2"
+            app:destination="@id/nav_slideshow" />
+    </fragment>
+
 </navigation>
