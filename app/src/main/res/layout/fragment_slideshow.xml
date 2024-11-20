@@ -117,10 +117,10 @@
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:layout_constraintTop_toTopOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="@id/registrar" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ingresar"
         android:layout_width="239dp"
         android:layout_height="36dp"
         android:layout_marginTop="216dp"
@@ -133,7 +133,7 @@
         app:layout_constraintTop_toTopOf="@+id/fondologin" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/registrar"
         android:layout_width="239dp"
         android:layout_height="36dp"
         android:layout_marginTop="12dp"
@@ -144,7 +144,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/fondologin"
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@id/ingresar"
         app:layout_constraintVertical_bias="0.0" />
 
 
