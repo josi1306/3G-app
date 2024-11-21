@@ -9,11 +9,15 @@
 
     <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_slideshow">login</string>
     <string name="login">Login</string>
+    <string name="registro">Registrar</string>
 
     <string name="menu_Accesorios">Accesorios</string>
     <string name="menu_Repuestos">Repuestos</string>
     <string name="menu_Cursos_Mecanica">Cursos Mecanica</string>
     <string name="menu_Editar_Perfil">Editar Perfil</string>
+    <string name="salirl">Salir</string>
+    <string name="nav_slideshow">Salir</string>
+    <string name="show_password">ojo</string>
 </resources>

@@ -1,16 +1,16 @@
-package com.example.a3gracing.ui.gallery;
+package com.example.a3gracing.ui.registro;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class registroViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public registroViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Accesorios");
+        mText.setValue("registro");
     }
 
     public LiveData<String> getText() {

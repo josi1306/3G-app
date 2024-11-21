@@ -77,15 +77,17 @@
         app:layout_constraintVertical_bias="0.042" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Email"
         android:layout_width="225dp"
         android:layout_height="41dp"
         android:layout_marginBottom="32dp"
-        android:autofillHints=""
+        android:hint="Email"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         android:background="@drawable/input_back"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/Contraseña"
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
         app:layout_constraintTop_toTopOf="@+id/fondologin"
@@ -93,10 +95,12 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/Contraseña"
         android:layout_width="225dp"
         android:layout_height="41dp"
-        android:autofillHints=""
+        android:hint="Contraseña"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         android:background="@drawable/input_back"
         android:ems="10"
         android:inputType="textPassword"
@@ -117,34 +121,33 @@
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:layout_constraintTop_toTopOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="@id/registrar" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ingresar"
         android:layout_width="239dp"
         android:layout_height="36dp"
         android:layout_marginTop="216dp"
         android:textColor="@android:color/black"
         android:backgroundTint="@color/back"
         android:text="Ingresar"
-        android:fontFamily="monospace"
-        app:layout_constraintEnd_toEndOf="@+id/fondologin"
+        android:fontFamily="sans-serif"        app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
         app:layout_constraintTop_toTopOf="@+id/fondologin" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/registrar"
         android:layout_width="239dp"
         android:layout_height="36dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="@color/back"
-        android:fontFamily="monospace"
+        android:fontFamily="sans-serif"
         android:text="Registrar"
         android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="@+id/fondologin"
         app:layout_constraintEnd_toEndOf="@+id/fondologin"
         app:layout_constraintStart_toStartOf="@+id/fondologin"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@id/ingresar"
         app:layout_constraintVertical_bias="0.0" />
 
 
